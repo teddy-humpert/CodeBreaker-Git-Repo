@@ -8,13 +8,6 @@ import java.util.*;
 import java.util.Date;
 import java.util.Scanner;
 
-//print main menu
-//one player or two player
-//prompt for first guess
-//loop until guess is correct
-//print results
-//log results
-
 public class App {
 
     private final Scanner keyboard = new Scanner(System.in);
@@ -28,9 +21,6 @@ public class App {
 
     private void run() {
 
-//        Collections.shuffle(dataset);
-//        String playWord = dataset.get(0).toUpperCase();
-//        char[] playWordSplit = playWord.toCharArray();
 
         while (true) {
             printTitleCard();

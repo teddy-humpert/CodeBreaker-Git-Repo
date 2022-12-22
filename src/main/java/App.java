@@ -75,7 +75,7 @@ public class App {
         System.out.println("One of you is the Code Breaker.");
         System.out.println("In a moment, the Code Maker will create the code.");
         System.out.println("It will be a combination of letters A, B, C & D.");
-        System.out.println("So the code could be AADC or DCCA or BBBB.");
+        System.out.println("So the code could be AADC or DCCA or BBBB or any other combo.");
         String codeToBreak = promptForString("Player One - Input Code: ").toUpperCase();
         for (int i = 0; i < 12; i++) {
             System.out.println("**********");
